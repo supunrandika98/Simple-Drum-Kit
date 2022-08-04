@@ -1,0 +1,68 @@
+body{
+
+	background-color: lightblue;
+	background-image: url("images/endless-constellation.svg");
+}
+
+.container{
+
+	text-align: center;
+	margin: auto;
+	font-family: "arvo";
+}
+
+h1{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 500;
+	font-size: 6.5rem;
+	color: #DBEDF3;
+	margin: 3% auto;
+}
+
+/* Buttons Animations */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum{
+
+	outline: none;
+	height: 150px;
+	width: 150px;
+ 	color: #DA0463;
+	border: 10px solid #404B69;
+	border-radius: 28px;
+	box-shadow: 0 2px 2px 0 black;
+	font-size: 5rem;
+	font-family: 'Arvo', cursive;
+	font-weight: 900;
+	text-shadow: 3px 0 #DBEDF3;
+	text-align: center;
+	margin: 7% 1%;
+}
+
+
+/* Add Background Images to Buttons */
+.z{
+	background-image: url("images/tom1.png");
+}
+
+.x{
+	background-image: url("images/tom2.png");
+}
+.c{
+	background-image: url("images/tom3.png");
+}
+.v{
+	background-image: url("images/tom4.png");
+}
+.b{
+	background-image: url("images/snare.png");
+}
+.n{
+	background-image: url("images/crash.png");
+}
+.m{
+	background-image: url("images/kick.png");
+}
